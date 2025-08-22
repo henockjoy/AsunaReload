@@ -53,8 +53,8 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply_video(
-                video="https://mangandi-2-0.onrender.com/Xdgv.mp4",                                               
+                temp.MELCOW['welcome'] = await message.reply_photo(
+                photo="https://graph.org/file/bad0e4c7055b207e36a14-702ae1456fe4eb5634.png",                                               
                                                  caption=f'<pre>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\nʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴍᴏᴠɪᴇꜱ / ꜱᴇʀɪᴇꜱ / ᴀɴɪᴍᴇꜱ ᴇᴛᴄ. ꜰʀᴏᴍ ʜᴇʀᴇ. ᴇɴᴊᴏʏ😉.</pre>',
                                                  reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('ɢʀᴏᴜᴘ', url='htpps://t.me/FT_Chatz') ] ] )
                 )
