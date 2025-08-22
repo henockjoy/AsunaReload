@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/mn-bots/shobanafilterbot.git /shobanafilterbot
+  git clone https://github.com/henockjoy/AsunaReload.git /AsunaReload
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /shobanafilterbot
+  git clone $UPSTREAM_REPO /AsunaReload
 fi
 cd /shobanafilterbot
 pip3 install -U -r requirements.txt
