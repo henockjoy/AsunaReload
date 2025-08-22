@@ -1,16 +1,14 @@
 class script(object):
-    START_TXT = """**⚔️ Yukki Asuna • AutoFilter Bot ⚔️**
+    START_TXT = """👑 Welcome, Warrior {}!  
+I am <b>Yukki Asuna</b>, your companion.  
+Search any <b>Movie / Series / Anime</b> 🎬 and I’ll fetch it instantly ⚡  
 
-👑 Welcome, Warrior {}!  
-I am **Yukki Asuna**, your AutoFilter companion\.  
-Search any **Movie / Series / Anime** 🎬 and I’ll fetch it instantly ⚡  
-
-**✨ Powers:**  
+<b>✨ Powers:</b>  
 🔹 AutoFilter Magic  
 🔹 One\-Click File Delivery  
 🔹 Always Online  
 
-💫 **Your wish is my command\.**"""
+💫 <b>Your wish is my command\.</b>"""
     HELP_TXT = """
      Hey  {} 
 Currently using free server so please Dont kill Me...
