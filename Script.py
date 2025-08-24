@@ -121,18 +121,20 @@ Added By - {}
     RESULT_TXT="""<blockquote> Hey,     </blockquote>
 <blockquote>Jᴜsᴛ Sᴇᴇ Wʜᴀᴛ I Found Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ </blockquote>"""
 
-    CUSTOM_FILE_CAPTION = """<b>{file_name}</b>
-    
-<b>{file_caption}</b>
+    CUSTOM_FILE_CAPTION = """
+<blockquote>
+<b>{file_name}</b>
 
-<b>Size: {file_size}</b>
+{file_caption}
 
-<b>⇝ Support:</b> <a href="https://t.me/TeamYoonseri">@𝚃𝚎𝚊𝚖𝚈𝚘𝚘𝚗𝚜𝚎𝚛𝚒</a>
-<b>⇝ Updates:</b> <a href="https://t.me/FT_Channels">@𝙵𝚃_𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜</a>
+<b>Size:</b> {file_size}
+</blockquote>
 
-<blockquote>⚠️ <b>This file will be Auto-delete from here within 10 minute. Save it to your Saved Message ... !!!</b></blockquote>
+<b>⇝ 🤝 Support:</b> <a href="https://t.me/TeamYoonseri">@𝚃𝚎𝚊𝚖𝚈𝚘𝚘𝚗𝚜𝚎𝚛𝚒</a>
+<b>⇝ 📢 Updates:</b> <a href="https://t.me/FT_Channels">@𝙵𝚃_𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜</a>
+
+<blockquote>⚠️ <b>This file will be auto-deleted within 10 minutes. Save it to your Saved Messages!</b></blockquote>
 """
-
     
     RESTART_GC_TXT = """
 <b>𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 !</b>
