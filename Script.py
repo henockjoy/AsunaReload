@@ -121,7 +121,12 @@ Added By - {}
     RESULT_TXT="""<blockquote> Hey,     </blockquote>
 <blockquote>Jᴜsᴛ Sᴇᴇ Wʜᴀᴛ I Found Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ </blockquote>"""
 
-    CUSTOM_FILE_CAPTION = """<blockquote><code>{file_name}\n\n{file_caption}\n\nSize: {file_size}</code></blockquote>\n<b>⇝ Support:</b> @𝚃𝚎𝚊𝚖𝚈𝚘𝚘𝚗𝚜𝚎𝚛𝚒\n<b>⇝ Updates:</b> @𝙵𝚃_𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜
+    CUSTOM_FILE_CAPTION = """<blockquote><b>{file_name}</b>
+
+<b>{file_caption}</b>
+<b>Size: {file_size}</b></blockquote>
+<b>⇝ Support:</b> @𝚃𝚎𝚊𝚖𝚈𝚘𝚘𝚗𝚜𝚎𝚛𝚒
+<b>⇝ Updates:</b> @𝙵𝚃_𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜
 
 <blockquote>⚠️ <b>This file will be Auto-delete from here within 10 minute. Save it to your Saved Message ... !!!</b></blockquote>
 """
