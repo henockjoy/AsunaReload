@@ -121,14 +121,10 @@ Added By - {}
     RESULT_TXT="""<blockquote> Hey,     </blockquote>
 <blockquote>Jᴜsᴛ Sᴇᴇ Wʜᴀᴛ I Found Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ </blockquote>"""
 
-    CUSTOM_FILE_CAPTION = """<b>{file_name}</b>
-    
-{file_caption}
+    CUSTOM_FILE_CAPTION = """📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+FɪʟᴇSɪᴢᴇ : {file_size}
 
-<b>⇝ Support:</b> <a href="https://t.me/TeamYoonseri">@𝚃𝚎𝚊𝚖𝚈𝚘𝚘𝚗𝚜𝚎𝚛𝚒</a>
-<b>⇝ Updates:</b> <a href="https://t.me/FT_Channels">@𝙵𝚃_𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜</a>
-
-⚠️ <b>This file will be auto-deleted within 10 minutes. Save it to your Saved Messages!</b>
+⚠️ <b>This file will be deleted from here within 10 minute as it has copyright Forward to Saved Message ... !!!</b>
 """
     
     RESTART_GC_TXT = """
