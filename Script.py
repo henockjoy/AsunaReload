@@ -19,13 +19,13 @@ Currently using free server so please Dont kill Me...
 ◎ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
 ◎ Bᴏᴛ Sᴇʀᴠᴇʀ: KoYeb</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Yukki Asuna is a Beta Program Currenlty in Development. 
+- Yukki Asuna is a Beta Program Currently in Development. 
 - Source - Not Available at the Moment.
 
 <b>DEVS:</b>
 -<a href=https://t.me/FT_Channels>Filmotainment</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
-- Filter is the feature were users can set automated replies for a particular keyword and shobana will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and Asuna will respond whenever a keyword is found the message
 <b>NOTE:</b>
 1. This Bot should have admin privillage.
 2. only admins can add filters in a chat.
@@ -121,10 +121,9 @@ Added By - {}
     RESULT_TXT="""<blockquote> Hey,     </blockquote>
 <blockquote>Jᴜsᴛ Sᴇᴇ Wʜᴀᴛ I Found Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ </blockquote>"""
 
-    CUSTOM_FILE_CAPTION = """📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-FɪʟᴇSɪᴢᴇ : {file_size}
+    CUSTOM_FILE_CAPTION = """<blockquote><code>{file_name}\n\n{file_caption}\n\nSize: {file_size}</code></blockquote>\n<b>⇝ Support:</b> @𝚃𝚎𝚊𝚖𝚈𝚘𝚘𝚗𝚜𝚎𝚛𝚒\n<b>⇝ Updates:</b> @𝙵𝚃_𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜
 
-⚠️ <b>This file will be deleted from here within 1 minute as it has copyright ... !!!</b>
+<blockquote>⚠️ <b>This file will be Auto-delete from here within 10 minute. Save it to your Saved Message ... !!!</b></blockquote>
 """
 
     
