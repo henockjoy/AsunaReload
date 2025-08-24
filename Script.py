@@ -126,13 +126,9 @@ Added By - {}
 <b>{file_name}</b>
 
 {file_caption}
-
-<b>Size:</b> {file_size}
 </blockquote>
-
 <b>⇝ 🤝 Support:</b> <a href="https://t.me/TeamYoonseri">@𝚃𝚎𝚊𝚖𝚈𝚘𝚘𝚗𝚜𝚎𝚛𝚒</a>
 <b>⇝ 📢 Updates:</b> <a href="https://t.me/FT_Channels">@𝙵𝚃_𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜</a>
-
 <blockquote>⚠️ <b>This file will be auto-deleted within 10 minutes. Save it to your Saved Messages!</b></blockquote>
 """
     
