@@ -121,8 +121,9 @@ Added By - {}
     RESULT_TXT="""<blockquote> Hey,     </blockquote>
 <blockquote>Jᴜsᴛ Sᴇᴇ Wʜᴀᴛ I Found Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ </blockquote>"""
 
-    CUSTOM_FILE_CAPTION = """📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-FɪʟᴇSɪᴢᴇ : {file_size}
+    CUSTOM_FILE_CAPTION = """<code>{file_caption}</code>
+    
+<code>Size: {file_size}</code>
 
 ⚠️ <b>This file will be deleted from here within 10 minute as it has copyright Forward to Saved Message ... !!!</b>
 """
