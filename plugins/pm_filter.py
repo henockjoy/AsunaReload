@@ -778,7 +778,7 @@ async def auto_filter(client, msg, spoll=False):
 
     if imdb and imdb.get('poster'):
         try:
-            delauto = await message.reply_photo(
+            await message.reply_photo(
                 photo=imdb.get('poster'),
                 caption=cap[:1024],
                 reply_markup=InlineKeyboardMarkup(btn)
@@ -788,31 +788,24 @@ async def auto_filter(client, msg, spoll=False):
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            delau = await message.reply_photo(
+            await message.reply_photo(
                 photo=poster,
                 caption=cap[:1024],
                 reply_markup=InlineKeyboardMarkup(btn)
             )
-            await asyncio.sleep(300)
-            await delau.delete()
         except Exception as e:
             logger.exception(e)
             audel = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(300)
-            await audel.delete()
     else:
         if HYPER_MODE:
-            autodel = await message.reply_text(
+            await message.reply_text(
                 cap_text,
                 reply_markup=InlineKeyboardMarkup(btn),
                 parse_mode=enums.ParseMode.MARKDOWN,
                 disable_web_page_preview=True
             )
         else:
-            autodel = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-
-        await asyncio.sleep(300)
-        await autodel.delete()
+            await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
 
     if spoll:
         await msg.message.delete()
