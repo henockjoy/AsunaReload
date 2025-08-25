@@ -416,7 +416,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                        file_caption=f_caption or "")
             except Exception as e:
                 logger.exception(e)
-        else
+        else:
             f_caption = f_caption or title or ""
         if f_caption is None:
             f_caption = f"{title}"
