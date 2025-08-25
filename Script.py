@@ -123,8 +123,6 @@ Added By - {}
 
     CUSTOM_FILE_CAPTION = """<code>{file_caption}</code>
 
-<code>Size:</b> {file_size}</code>
-
 <b>⚠️ This file will be deleted within 10 minutes due to copyright. Forward it to Saved Messages to keep it safe!</b>
 """
     
