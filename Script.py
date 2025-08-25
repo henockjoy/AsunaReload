@@ -122,10 +122,10 @@ Added By - {}
 <blockquote>Jᴜsᴛ Sᴇᴇ Wʜᴀᴛ I Found Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ </blockquote>"""
 
     CUSTOM_FILE_CAPTION = """<code>{file_caption}</code>
-    
-<code>Size: {file_size}</code>
 
-⚠️ <b>This file will be deleted from here within 10 minute as it has copyright Forward to Saved Message ... !!!</b>
+<code>Size:</b> {file_size}</code>
+
+<b>⚠️ This file will be deleted within 10 minutes due to copyright. Forward it to Saved Messages to keep it safe!</b>
 """
     
     RESTART_GC_TXT = """
