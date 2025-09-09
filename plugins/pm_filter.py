@@ -449,7 +449,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/FT_Newz'),
              InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/FT_Channels')
          ],[
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -469,7 +469,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='start')
         ],[
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -480,7 +480,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -491,7 +491,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='about'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -502,7 +502,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "manuelfilter":
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX'),
             InlineKeyboardButton('ʙᴜᴛᴛᴏɴ', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -514,7 +514,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "button":
         buttons = [[
            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -525,7 +525,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "autofilter":
         buttons = [[
            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -536,7 +536,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "coct":
         buttons = [[
              InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -548,7 +548,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('ᴀᴅᴍɪɴ', callback_data='admin'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -559,7 +559,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "admin":
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -571,7 +571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('♻️', callback_data='rfrsh'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -591,7 +591,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('♻️', callback_data='rfrsh'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
