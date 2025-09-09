@@ -56,7 +56,7 @@ async def save_group(bot, message):
                 temp.MELCOW['welcome'] = await message.reply_photo(
                 photo="https://graph.org/file/bad0e4c7055b207e36a14-702ae1456fe4eb5634.png",                                               
                                                  caption=f'<pre>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\nʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴍᴏᴠɪᴇꜱ / ꜱᴇʀɪᴇꜱ / ᴀɴɪᴍᴇꜱ ᴇᴛᴄ. ꜰʀᴏᴍ ʜᴇʀᴇ. ᴇɴᴊᴏʏ😉.</pre>',
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('ɢʀᴏᴜᴘ', url='htpps://t.me/FT_Chatz') ] ] )
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('ɢʀᴏᴜᴘ', url='htpps://t.me/FTPremiumX') ] ] )
                 )
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
