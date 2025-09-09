@@ -41,7 +41,7 @@ async def password(bot, update):
     # Inline buttons
     btn = InlineKeyboardMarkup([
         [InlineKeyboardButton('Filmotainment', url='https://t.me/FT_Channels'),
-         InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')]
+         InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')]
     ])
     
     # Edit the message to show the generated password
