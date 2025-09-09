@@ -17,7 +17,7 @@ async def share_text(client, message):
         await vj.reply_text(
             text=f"**Notice:**\n\n1. Send Any Text Messages.\n2. No Media Support\n\n**Any Question Join Support Chat**",               
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Updates Channel", url=f"https://t.me/FT_Channels"),
-                                                InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')]])
+                                                InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')]])
             )                                                   
         return
     await vj.reply_text(
