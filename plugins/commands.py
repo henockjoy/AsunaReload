@@ -177,7 +177,7 @@ async def start(client, message):
               [
                   InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/FT_Newz'),
                   InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/FT_Channels'),
-                  InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+                  InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
          ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -201,7 +201,7 @@ async def start(client, message):
              InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/FT_Newz'),
              InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/FT_Channels')
         ],[
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_text("Filmotainment") 
@@ -243,7 +243,7 @@ async def start(client, message):
              InlineKeyboardButton(f'ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/FT_Newz'),
              InlineKeyboardButton(f'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/FT_Channels')
         ],[
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FT_Chatz')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/FTPremiumX')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
